@@ -1,0 +1,214 @@
+body
+{
+    padding: 0;
+ background: linear-gradient(135deg,#352F44,#0C356A)
+}
+#img{
+      border-radius: 50%;
+      position: absolute;
+      z-index: 0;
+      margin-left: 10px;
+      margin-top: 10px;
+      animation: rotate 13s infinite linear;
+    
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+#displaysongname{
+    width: 200px;
+    border-bottom:1px solid red ;
+    font-family:'Tulpen One', cursive;
+    position: absolute;
+    z-index: 1;
+    top:30px;
+    left: 125px;
+    text-align: center;
+    color:lime;
+}
+#displaysinger{
+    width: 200px;
+    border-bottom:1px solid red ;
+    font-family:'Tulpen One', cursive;
+    position: absolute;
+    z-index: 1;
+    top:60px;
+    left: 125px;
+    text-align: center;
+    color:lim
+}
+
+#con2{
+    position: absolute;
+    z-index: 2;
+    top: 290px;
+    left: 145px;
+    
+
+}
+#con3{
+    position: absolute;
+    z-index: 2;
+    top: 330px;
+    left: 132px;
+     
+
+}
+#con2 button,#con3 button{
+    font-size: 20px;
+    border-bottom:3px solid black ;
+     border-radius: 30px;
+     background: linear-gradient(135deg,blue,red);
+}
+
+#d1{
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+    left: 50px;
+}
+#d2{
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+    left: 330px;
+}
+#con5{
+    display: flex;
+    flex-direction: column;
+    
+}
+#con5 button{
+    border-bottom:3px solid black ;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(120, 120, 181);
+    font-weight: bolder;
+    text-shadow:  0px 3px 3px black;
+}
+#con5 button:hover{
+    box-shadow: 0px 0px 5px 5px lime;
+    
+}
+#con5 button:active{
+    box-shadow: 0px 0px 5px 5px rgb(201, 7, 46);
+    
+}
+@media  (max-width:600px) {
+   #img{
+        width: 200px;
+        height: 200px;
+        left: 80px;
+    }
+    #displaysongname,#displaysinger{
+        left:115px;
+        width: 150px;
+    }
+    #con2{
+        left: 115px;
+        top: 250px;
+    }
+    #con3{
+        left: 105px; 
+        top: 285px;
+    }
+    #d2{
+        left: 270px;
+    }
+    #con5{
+        position: absolute;
+        z-index: 2;
+        top: 350px;
+    }
+    #con5 button{
+        width: 350px;
+    }
+    #d3{
+        left: 170px;
+    }
+}
+#s1{
+    background-image: url("../img/i11.jpg");
+}
+#s2{
+    background-image: url("../img/i2.jpg");
+}
+#s3{
+    background-image: url("../img/i3.jpg");
+}
+#s4{
+    background-image: url("../img/i4.jpg");
+}
+#s5{
+    background-image: url("../img/i5.jpg");
+}
+#s6{
+    background-image: url("../img/i6.jpg");
+}
+#s7{
+    background-image: url("../img/i7.jpg");
+}
+#s8{
+    background-image: url("../img/i8.jpg");
+}
+#s9{
+    background-image: url("../img/i9.jpg");
+}
+#s10{
+    background-image: url("../img/i10.jpg");
+}
+#s11{
+    background-image: url("../img/i11.jpg");
+}
+#s12{
+    background-image: url("../img/i12.jpg");
+}
+#s13{
+    background-image: url("../img/i13.jpg");
+}
+#s14{
+    background-image: url("../img/i14.jpg");
+}
+#s15{
+    background-image: url("../img/i15.jpg");
+}
+#s16{
+    background-image: url("../img/i16.jpg");
+}
+#s17{
+    background-image: url("../img/i17.jpg");
+}
+#s18{
+    background-image: url("../img/i18.jpg");
+}
+#s19{
+    background-image: url("../img/i19.jpg");
+}
+#s20{
+    background-image: url("../img/i20.jpg");
+}
+#s21{
+    background-image: url("../img/i12.jpg");
+}
+#s22{
+    background-image: url("../img/i22.jpg");
+}
+#s23{
+    background-image: url("../img/i23.jpg");
+}
+
+#d3{
+    position: absolute;
+    z-index: 6;
+    top: 100px;
+    left: 320px;
+
+color: lime;
+}
